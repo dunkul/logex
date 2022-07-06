@@ -25,7 +25,7 @@
     "extra": {
         "laravel": {
             "providers": [
-               "Dunkul\\LogEx\\LogExProvider"
+               "Dunkul\\LogEx\\LogExServiceProvider"
             ],
             "aliases": {
                 "LogEx": "Dunkul\\LogEx\\LogEx"
