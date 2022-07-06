@@ -1,0 +1,38 @@
+{
+    "name": "dunkul/logex",
+    "description": "laravel log helper",
+    "keywords": [
+        "request",
+        "logger"
+    ],
+    "type": "library",
+    "require": {
+        "php": "^7.4|^8.1",
+        "laravel/framework": "^8.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dunkul",
+            "email": "dunkul@naver.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dunkul\\LogEx\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+               "Dunkul\\LogEx\\LogExProvider"
+            ],
+            "aliases": {
+                "LogEx": "Dunkul\\LogEx\\LogEx"
+            },
+            "dont-discover": []
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
